@@ -88,11 +88,11 @@ button:hover {
 <body>
     <div class="container">
         <h1>BMI Calculator</h1>
-        <label for="age">Age:</label>
+        <label for="age" class="form-label">Age:</label>
         <input type="number" id="age" min="1" required>
-        <label for="height">Height (cm):</label>
+        <label for="height" class="form-label" >Height (cm):</label>
         <input type="number" id="height" min="1" required>
-        <label for="weight">Weight (kg):</label>
+        <label for="weight"class="form-label" >Weight (kg):</label>
         <input type="number" id="weight" min="1" required>
         <button onclick="calculateBMI()">Calculate</button>
         <p id="result"></p>
